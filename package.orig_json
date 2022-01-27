@@ -1,0 +1,32 @@
+{
+  "name": "node-mbed-dtls",
+  "version": "2.4.4",
+  "description": "Node mbed DTLS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/server.js",
+    "preinstall": "./downloadDeps.sh",
+    "install": "node-gyp rebuild",
+    "build": "node-gyp build",
+    "start": "node index.js"
+  },
+  "author": "Bryce Kahle",
+  "license": "Apache-2.0",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neustar/node-mbed-dtls.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "node-gyp": "^3.0.3",
+    "should": "^7.1.0",
+    "sinon": "^1.17.1"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_from": "github:KEGustafsson/node-mbed-dtls",
+  "_id": "node-mbed-dtls-modified@2.16.10",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/node-mbed-dtls-modified",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "KEGustafsson/node-mbed-dtls",
+    "rawSpec": "KEGustafsson/node-mbed-dtls",
+    "saveSpec": "github:KEGustafsson/node-mbed-dtls",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:KEGustafsson/node-mbed-dtls#f662a1855aa3aef4d370ec019ed67cd83386e7af",
+  "_spec": "KEGustafsson/node-mbed-dtls",
+  "_where": "/home/kgustafs/temp/working/node-mbed-dtls-new",
+  "author": {
+    "name": "Bryce Kahle"
+  },
+  "bugs": {
+    "url": "https://github.com/neustar/node-mbed-dtls/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "nan": "^2.1.0"
+  },
+  "deprecated": false,
+  "description": "Node mbed DTLS Modified",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "node-gyp": "^3.0.3",
+    "should": "^7.1.0",
+    "sinon": "^1.17.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/neustar/node-mbed-dtls#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "node-mbed-dtls-modified",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neustar/node-mbed-dtls.git"
+  },
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild",
+    "start": "node index.js",
+    "test": "mocha test/server.js"
+  },
+  "version": "2.16.10"
+}
